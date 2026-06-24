@@ -22,3 +22,15 @@ baileys-auth
 .env.local
 logs
 logs/
+
+# Orchestrateur - publication GitHub publique
+.project-orchestrator.json
+metadata.json
+AUDIT_*.json
+AUDIT_*.md
+RAPPORT_*.json
+RAPPORT_*.md
+PREPARATION_GITHUB*.json
+PREPARATION_GITHUB*.md
+docs/captures/
+captures/

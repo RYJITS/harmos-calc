@@ -2,7 +2,7 @@
 
 ## Liens vers l'application
 - Lien public: https://mamoyenne.c2rdesign.com/
-- GitHub: non detecte
+- GitHub: https://github.com/RYJITS/harmos-calc
 
 ## A quoi sert le projet
 HarmoS Calc est un outil familial de suivi scolaire. Il permet de saisir les notes par matiere, choisir les niveaux A/B/C, calculer les moyennes et comprendre l'orientation possible dans le systeme suisse.
@@ -45,16 +45,16 @@ Le projet a ete concu comme un outil de decision simple pour les parents et l'el
 - Persistance locale des parametres et resultats
 
 ## Captures d'ecran
-![Capture 1 - harmos-calc](docs/captures/10-harmos-calc-2026-06-24_20-41-56-desktop.png)
+![Capture 1 - harmos-calc](docs/captures/10-harmos-calc-2026-06-24_20-43-51-desktop.png)
 
-![Capture 2 - harmos-calc](docs/captures/10-harmos-calc-2026-06-24_20-41-56-mobile.png)
+![Capture 2 - harmos-calc](docs/captures/10-harmos-calc-2026-06-24_20-43-51-mobile.png)
 
 ## Mises a jour
 - Fiche actualisee depuis le registre orchestrateur et le catalogue projet.
 - Changements locaux detectes: relire la fiche apres validation des modifications.
-- Derniere mise a jour registre connue: 2026-06-24T18:43:50.297Z.
+- Derniere mise a jour registre connue: 2026-06-24T22:15:14.055Z.
 
 ## Derniere mise a jour
-2026-06-24T18:43:50.301Z
+2026-06-24T22:15:14.063Z
 
 > Fichier genere par l'orchestrateur pour le hub Site Ma Methode.
