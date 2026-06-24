@@ -45,16 +45,16 @@ Le projet a ete concu comme un outil de decision simple pour les parents et l'el
 - Persistance locale des parametres et resultats
 
 ## Captures d'ecran
-![Capture 1 - harmos-calc](docs/captures/10-harmos-calc-2026-06-24_17-26-08-desktop.png)
+![Capture 1 - harmos-calc](docs/captures/10-harmos-calc-2026-06-24_20-41-56-desktop.png)
 
-![Capture 2 - harmos-calc](docs/captures/10-harmos-calc-2026-06-24_17-26-08-mobile.png)
+![Capture 2 - harmos-calc](docs/captures/10-harmos-calc-2026-06-24_20-41-56-mobile.png)
 
 ## Mises a jour
 - Fiche actualisee depuis le registre orchestrateur et le catalogue projet.
 - Changements locaux detectes: relire la fiche apres validation des modifications.
-- Derniere mise a jour registre connue: 2026-06-24T18:41:55.219Z.
+- Derniere mise a jour registre connue: 2026-06-24T18:43:50.297Z.
 
 ## Derniere mise a jour
-2026-06-24T18:41:55.223Z
+2026-06-24T18:43:50.301Z
 
 > Fichier genere par l'orchestrateur pour le hub Site Ma Methode.
