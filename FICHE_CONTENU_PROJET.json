@@ -1,0 +1,78 @@
+{
+  "title": "Harmos Calc - Calculateur scolaire suisse avec suivi HarmoS",
+  "summary": "Outil interactif pour saisir les notes, calculer les moyennes, évaluer l'orientation HarmoS et gérer un système de bonus/malus lié au temps de jeu.",
+  "purpose": "Simplifier le suivi scolaire des élèves en transformant les notes brutes en informations actionnables (moyennes, orientation, progression) et en motivant l'élève via un système de récompenses temporelles.",
+  "audience": "Parents et élèves (usage familial) souhaitant un suivi scolaire clair, des conseils d'orientation et une mécanique de motivation intégrée.",
+  "functions": [
+    "Saisie des notes par matière et composant",
+    "Calcul automatique des moyennes par matière et moyenne générale",
+    "Évaluation de l'orientation scolaire selon les niveaux HarmoS (A/B/C)",
+    "Affichage de la progression et conseils personnalisés",
+    "Mode parent protégé par mot de passe pour gérer les paramètres sensibles",
+    "Système de bonus/malus transformant les notes en temps de jeu",
+    "Journalisation des actions parent",
+    "Réinitialisation complète des données (notes, timer, bonus)",
+    "Calcul dynamique des moyennes pondérées",
+    "Classification automatique de l'orientation HarmoS",
+    "Génération de conseils personnalisés basés sur les résultats",
+    "Système de bonus/malus configurable"
+  ],
+  "recentUpdates": [
+    "Mise à jour des dépendances principales (React 19, Vite 6, TypeScript 5.8)",
+    "Validation des scripts de build (`npm run build`) et de lint (`npm run lint`)",
+    "Ajout de captures d'écran pour la documentation publique",
+    "Intégration d'un système de règles HarmoS basé sur des appels API optionnels",
+    "Amélioration de la sécurité avec un mode parent protégé et une journalisation des actions",
+    "Optimisation des performances avec un recalcul différé des moyennes"
+  ],
+  "details": {
+    "application": "Harmos Calc est une application web interactive conçue pour aider les familles à suivre la progression scolaire des élèves selon le système HarmoS suisse. L'application permet de saisir des notes par matière et composant, calcule automatiquement les moyennes pondérées, et évalue l'orientation scolaire (Général, Moderne, Pré-gymnasial) en fonction des niveaux A/B/C. Un système de bonus/malus transforme les performances en temps de jeu, offrant une motivation supplémentaire. Le mode parent, sécurisé par mot de passe, permet de configurer les seuils et de consulter l'historique des actions.",
+    "fonctionnement": "L'application fonctionne en temps réel : à chaque saisie de note, les moyennes sont recalculées instantanément. Le système HarmoS analyse les niveaux A/B/C par matière pour déterminer une orientation. Le mode bonus/malus est appliqué automatiquement selon des règles configurables (ex : +15 min par note ≥ 5, -15 min par note < 4). Le timer de jeu est synchronisé avec ces bonus/malus. Le mode parent, protégé par mot de passe, permet de configurer les seuils et de consulter l'historique des actions.",
+    "conception": "Le projet a été conçu comme un outil familial simple et visuel, combinant calcul scolaire, visualisation immédiate et mécanique de motivation. L'architecture repose sur une séparation claire entre l'interface utilisateur (React), la logique métier (calculs locaux) et les services externes (appel à une API pour les règles HarmoS). Le choix de React et Vite permet une interface responsive et un développement modulaire. Le stockage des données est local (IndexedDB ou localStorage) pour garantir la confidentialité. La sécurité est renforcée par un mode parent protégé et une journalisation des actions. L'optimisation inclut un recalcul différé des moyennes pour éviter les blocages UI.",
+    "installation": "[object Object]",
+    "utilisation": "[object Object]",
+    "capabilities": [
+      "Calcul dynamique des moyennes pondérées",
+      "Évaluation automatique de l'orientation HarmoS",
+      "Génération de conseils personnalisés",
+      "Système de bonus/malus configurable",
+      "Timer de jeu synchronisé avec les performances",
+      "Journalisation des actions parent",
+      "Réinitialisation complète des données",
+      "Persistance locale des données",
+      "Interface responsive (mobile et desktop)",
+      "Animations visuelles pour les récompenses et pénalités"
+    ],
+    "tools": [
+      "React 19 pour l'interface utilisateur",
+      "Vite 6 comme serveur de développement et bundler",
+      "TypeScript 5.8 pour le typage statique",
+      "Tailwind CSS pour le style",
+      "Motion pour les animations",
+      "canvas-confetti pour les effets visuels",
+      "Google GenAI pour l'appel aux règles HarmoS (optionnel)",
+      "Express pour le serveur de développement (si nécessaire)"
+    ],
+    "techniques": [
+      "Calcul côté client pour une réactivité immédiate",
+      "Stockage local (IndexedDB/localStorage) pour la persistance",
+      "Modèle de composants React pour une architecture modulaire",
+      "Gestion d'état local avec React Context ou Zustand",
+      "Appel API externe pour les règles HarmoS (optionnel)",
+      "Responsive Design avec Tailwind CSS",
+      "Optimisation des performances (recalcul différé, memoization)"
+    ],
+    "automations": [
+      "Recalcul automatique des moyennes à chaque saisie de note",
+      "Application automatique des bonus/malus selon les seuils configurés",
+      "Affichage dynamique de l'orientation HarmoS",
+      "Génération de conseils personnalisés",
+      "Journalisation automatique des actions parent",
+      "Synchronisation du timer de jeu avec les bonus/malus"
+    ],
+    "recentUpdates": [
+      "[object Object]",
+      "[object Object]"
+    ]
+  }
+}
